@@ -1,4 +1,5 @@
 init();
+require("dotenv").config();
 
 async function init() {
   if (location.search.split("=")[1] === undefined) {
